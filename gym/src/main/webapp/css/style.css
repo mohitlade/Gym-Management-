@@ -1,0 +1,183 @@
+.btn
+{
+	background:black;
+	color:white;
+	padding: 5px;
+	width: 100px;
+	height: 40px;
+}
+
+.adminbtn
+{
+	background:black;
+	color:white;
+	padding: 5px;
+	width: 400px;
+	height: 40px;
+	border-radius: 10px;
+	box-shadow: 8px 8px 8px darkgrey;
+	border: 1px solid white;
+}
+
+.logtab
+{
+	background: #cb8;
+	padding: 5px;
+}
+
+.txt
+{
+	border:1px solid black;
+	padding: 5px;
+}
+
+.main
+{
+	margin:80px;
+}
+
+.topnav 
+{
+	background-color: #333;
+  	overflow: hidden;
+}
+
+.topnav a 
+{
+  	float: left;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 13px;
+	font-weight: bold;
+}
+
+.topnav a:hover 
+{
+  	background-color: #ddd;
+  	color: black;
+}
+
+.footer 
+{
+  	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: black;
+  	color: white;
+  	text-align: center;
+	font-weight: bold;
+}
+
+.about
+{
+	background: linen;
+	margin: 70px;
+	padding: 30px;
+	line-height: 40px;
+}
+
+.linkbtn
+{
+	text-decoration: none;
+	background: black;
+	color: white;
+	padding: 7px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px grey;
+	width: 250px;
+}
+
+.eqtab
+{
+	background: linen;
+	padding: 10px;
+}
+.eqtab td
+{
+	padding: 10px;
+}
+
+.scroll
+{
+	overflow: auto;
+	width: 500px;
+	height: 300px;
+	color: black;
+	font-size: 15px;
+	margin-left:5%;
+	margin-top: 5%;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
